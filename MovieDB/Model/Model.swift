@@ -19,3 +19,13 @@ struct Movies: Decodable {
     let title: String
     let overview: String
 }
+
+struct Detail: Codable {
+    let title: String
+    let overview: String
+    let poster_path: String
+    let backdrop_path: String?
+    let release_date: String
+    
+}
+
